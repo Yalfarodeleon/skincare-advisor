@@ -16,14 +16,14 @@ from typing import Optional, Callable
 from enum import Enum
 import re
 
-from knowledge.ingredients import (
+from app.core.knowledge.ingredients import (
     IngredientKnowledgeGraph,
     SkinProfile,
     SkinType,
     SkinConcern,
     InteractionType
 )
-from routines.builder import RoutineBuilder, RoutineTime
+from app.core.routines.builder import RoutineBuilder, RoutineTime
 
 
 class QueryType(Enum):
