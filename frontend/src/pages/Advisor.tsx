@@ -7,6 +7,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { MessageCircle, Send, User, Sparkles, HelpCircle } from 'lucide-react';
 import { useAdvisor, useExampleQuestions } from '../hooks/useApi';
+import ReactMarkdown from 'react-markdown';
 import type { AdvisorResponse } from '../types';
 
 interface Message {
@@ -143,7 +144,9 @@ export default function Advisor() {
                       : 'bg-gray-100 text-gray-800 rounded-bl-md'
                   }`}
                 >
-                  <p className="whitespace-pre-wrap">{message.content}</p>
+                  <div className="prose prose-sm max-w-none">
+                    <ReactMarkdown>{message.content}</ReactMarkdown>
+                  </div>
                   
                   {/* Confidence indicator */}
                   {message.confidence !== undefined && message.confidence < 0.5 && (
