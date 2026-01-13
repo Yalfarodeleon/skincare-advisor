@@ -166,7 +166,7 @@ Maps symptoms (skin concerns) → solutions (ingredients).
 
 ### Option 1: Docker (Recommended)
 ```bash
-git clone https://github.com/YOUR_USERNAME/mixmyroutine.git
+git clone https://github.com/Yalfarodeleon/mixmyroutine.git
 cd mixmyroutine
 docker-compose up --build
 ```
