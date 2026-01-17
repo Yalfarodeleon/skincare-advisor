@@ -36,7 +36,7 @@ export default function App() {
   return (
     <div className="min-h-screen flex">
       {/* Sidebar */}
-      <aside className="w-64 bg-white border-r border-gray-100 p-6 flex flex-col">
+      <aside className="w-64 bg-white border-r border-gray-200 flex flex-col">
         {/* Logo */}
         <div className="mb-8">
           <h1 className="text-xl font-bold bg-gradient-to-r from-primary-500 to-primary-700 bg-clip-text text-transparent flex items-center gap-2">
@@ -79,7 +79,7 @@ export default function App() {
       </aside>
 
       {/* Main content */}
-      <main className="flex-1 p-8 overflow-auto">
+      <main className="flex-1 bg-gray-50 p-8 overflow-y-auto">
         <Routes>
           <Route path="/" element={<IngredientChecker />} />
           <Route path="/routine" element={<RoutineBuilder />} />
