@@ -1,6 +1,6 @@
 # 🧴 MixMyRoutine
 
-An intelligent skincare routine builder that uses **Knowledge-Based AI** to analyze ingredient compatibility, detect conflicts, and provide personalized recommendations.
+An intelligent skincare routine builder that uses principles of **Knowledge-Based AI** to analyze ingredient compatibility, detect conflicts, and provide personalized recommendations.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.11+-green.svg)
